@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useRouteMatch, useHistory } from "react-router-dom";
-import { Focusable } from "react-js-spatial-navigation";
+import { Focusable, FocusableSection } from "react-js-spatial-navigation";
 import { useSelector } from "react-redux";
 
 export const Menu = (props) => {
@@ -15,8 +15,9 @@ export const Menu = (props) => {
   };
 
   return (
+    <FocusableSection defaultElement="first">
     <div className="navigation">
-      <Focusable onClickEnter={() => handleClickEnter(`${match.url}`)}>
+      <Focusable onClickEnter={() => handleClickEnter(`${match.url}`)} className="first">
         <Link
           className="navigation-link"
           className={`
@@ -63,5 +64,6 @@ export const Menu = (props) => {
         </Focusable>
       )}
     </div>
+    </FocusableSection>
   );
 };

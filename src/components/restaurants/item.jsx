@@ -34,14 +34,14 @@ const Item = (props) => {
           <div className="content-area">
             <img src={`img/pizzas/${item.image}`} className="" alt="Pizza"/>
             <div className="textual">
-              <h3 className="title">
-                {item.name} - {item.price}
-              </h3>
+              <h2 className="title">
+                {item.name} - {item.price}€
+              </h2>
               <p className="description">{item.description}</p>
             </div>
           </div>
           <div className="action-area">
-          <span>
+          <span className="quantity">
             {quantity > 0 && (
 
               (quantity+'x')
@@ -54,13 +54,13 @@ const Item = (props) => {
                   className="substract"
                   onClick={() => handleRemoveFromCart(item.id)}
                 >
-                  Substract
+                  -
                 </button>
               </Focusable>
             )}
             <Focusable onClickEnter={handleAddToCart}>
               <button className="add-to-cart" onClick={() => handleAddToCart()}>
-                Add
+                Add+
               </button>
             </Focusable>
           </div>

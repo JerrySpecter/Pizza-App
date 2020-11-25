@@ -30,6 +30,13 @@
 
     .action-area{
       display: flex;
+
+      .quantity {
+        color: #fdb001;
+        font-weight: bold;
+        font-size: 32px;
+        padding: 0px 8px;
+      }
     }
 
   }
@@ -69,6 +76,9 @@ button {
   margin: 0 4px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 18px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
 }
 
 .focusable {
@@ -76,10 +86,32 @@ button {
   &:focus{
     outline: none;
 
+
+
     .restaurants-item{
       background-color: #fdb001;
       color: #edf2f5;
     }
+
+    button{
+      background-color: #fdb001;
+      color: #edf2f5;
+    }
   }
+
+}
+
+.section-1 {
+
+  &:focus{
+    outline: none;
+
+    a {
+        background-color: #fdb001;
+        color: #edf2f5;
+    }
+
+  }
+
 
 }
