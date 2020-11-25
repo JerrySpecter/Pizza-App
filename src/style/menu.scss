@@ -6,6 +6,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
 
+  &--cart{
+    flex-direction: column;
+    align-items: center;
+  }
+
   &-item {
     box-shadow: 0 2px 8px 1px #d7d7d7;
     padding: 16px;
@@ -81,12 +86,25 @@ button {
   border-radius: 4px;
 }
 
-.focusable {
+.toppings,.added-toppings{
+  button{
+    margin-bottom: 8px;
+  }
+  .toppings-btn{
+    display: inline;
+  }
+  
+}
+
+.add-toppings{
+  display: block;
+  margin-bottom: 8px;
+}
+
+.focusable,div[class^="section"] {
 
   &:focus{
     outline: none;
-
-
 
     .restaurants-item{
       background-color: #fdb001;
@@ -97,21 +115,16 @@ button {
       background-color: #fdb001;
       color: #edf2f5;
     }
-  }
 
-}
-
-.section-1 {
-
-  &:focus{
-    outline: none;
-
-    a {
-        background-color: #fdb001;
-        color: #edf2f5;
+    .button-link{
+      background-color: #fdb001;
+      color: #edf2f5;
     }
 
+    a {
+      background-color: #fdb001;
+      color: #edf2f5;
   }
 
-
+  }
 }

@@ -39,7 +39,7 @@ const Checkout = (props) => {
       <h2>Checkout</h2>
       <Link to="/cart">back to cart</Link>
       {cartItems.length > 0 && <h4>Total: {sum(cartItems, "price")}</h4>}
-      <ul className="menu">
+      <ul className="menu menu--cart">
         {cartItems.length > 0 &&
           cartItems.map((cartItem, index) => {
             return <Item item={cartItem} index={index} key={index} />;

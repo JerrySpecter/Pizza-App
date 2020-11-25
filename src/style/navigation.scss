@@ -1,7 +1,14 @@
 .navigation {
   display: flex;
-  padding: 18px;
+  padding: 18px 0;
   margin-bottom: 18px;
+  max-width: 920px;
+  margin: 0 auto;
+  justify-content: space-between;
+
+  &-right{
+    display: flex;
+  }
 
   &-link {
     display: block;
@@ -18,4 +25,21 @@
       color: #fdb001;
     }
   }
+}
+
+.button-link {
+  display: block;
+  margin: 0 8px;
+  font-size: 18px;
+  background-color: #edf2f5;
+  border-radius: 4px;
+  color: #4c3017;
+  text-decoration: none;
+  width: 920px;
+  margin: 0 auto;
+  padding: 32px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 32px;
+
 }

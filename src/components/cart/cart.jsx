@@ -19,19 +19,24 @@ const Cart = (props) => {
 
   return (
     <>
-      <h2>Cart</h2>
-      {cartItems.length > 0 && <h4>Total: {sum(cartItems, "price")}</h4>}
-      <ul className="menu">
+      <div className="container">
+        <h1>Cart</h1>
+      </div>
+      <ul className="menu menu--cart">
         {cartItems.length > 0 &&
           cartItems.map((cartItem, index) => {
             return <Item item={cartItem} index={index} key={index} />;
           })}
       </ul>
+      <div className="container">
+      {cartItems.length > 0 && <h2>Total: {sum(cartItems, "price")} €</h2>}
+      </div>
       {cartItems.length > 0 && (
         <Focusable onClickEnter={() => handleClickEnter(`/checkout`)}>
-          <Link to={`/checkout`}>Go to checkout</Link>
+          <Link className="button-link" to={`/checkout`}>Go to checkout</Link>
         </Focusable>
       )}
+
     </>
   );
 };

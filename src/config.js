@@ -440,48 +440,28 @@ export const data = {
     ],
     "toppings": [
         {
-            "name": "Mais ",
-            "price": 1.00
-        },
-        {
-            "name": "Schwarze Olive ",
-            "price": 1.50
-        },
-        {
-            "name": "Salami/Schinken ",
-            "price": 1.50
-        },
-        {
-            "name": "Sardellen ",
-            "price": 1.50
-        },
-        {
-            "name": "Kapern ",
-            "price": 1.50
-        },
-        {
-            "name": "Rucola ",
-            "price": 1.50
-        },
-        {
-            "name": "Champignon ",
-            "price": 1.50
-        },
-        {
-            "name": "Kirschtomaten ",
-            "price": 1.50
-        },
-        {
-            "name": "Italienische Wurst ",
+            "name": "Cola 0.33",
             "price": 2.50
         },
         {
-            "name": "Büffelmozzarella ",
+            "name": "Beer 0.33",
+            "price": 3.50
+        },
+        {
+            "name": "Red-Bull 0.25",
             "price": 3.00
         },
         {
-            "name": "Rohschinken ",
-            "price": 3.00
+            "name": "Jalapenos",
+            "price": 1.50
+        },
+        {
+            "name": "Mozzarella",
+            "price": 1.50
+        },
+        {
+            "name": "Truffles",
+            "price": 2.50
         }
     ]
 }

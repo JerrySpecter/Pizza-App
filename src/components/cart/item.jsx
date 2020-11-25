@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { connect } from "react-redux";
 import { data } from "./../../config";
+import { Focusable, FocusableSection } from "react-js-spatial-navigation";
 
 const Item = (props) => {
   const {
@@ -42,18 +43,19 @@ const Item = (props) => {
     <>
       <li className="menu-item">
         <div className="header">
-          <h3 className="title">
-            {item.name} - {item.price}
-          </h3>
-          <button
-            className="add-to-cart"
-            onClick={() => handleRemoveFromCart(index)}
-          >
-            Remove
-          </button>
+          <h2 className="title">
+            {item.name} - {item.price}€
+          </h2>
+          <Focusable onClickEnter={() => handleRemoveFromCart(index)}>
+            <button
+              className="add-to-cart"
+              onClick={() => handleRemoveFromCart(index)}
+            >
+              Remove
+            </button>
+          </Focusable>
         </div>
-        <p className="description">{item.description}</p>
-        <button
+        {/* <button
           className="add-toppings"
           onClick={() => setToppingsOpen(!toppingsOpen)}
         >
@@ -93,7 +95,7 @@ const Item = (props) => {
                 return false;
               })}
           </div>
-        )}
+        )} */}
       </li>
     </>
   );
