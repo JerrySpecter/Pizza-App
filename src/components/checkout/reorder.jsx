@@ -25,6 +25,7 @@ const Reorder = (props) => {
 
   return (
     <>
+    <div className="container">
       <h2>Reorder Your last order:</h2>
       <p>Restaurant details:</p>
       <ul>
@@ -51,10 +52,11 @@ const Reorder = (props) => {
         })}
       </ul>
       <Focusable onClickEnter={handleConfirmOrder}>
-        <Link onClick={handleConfirmOrder} to={`/cart`}>
-          Reorder this order
+        <Link className="button-link" onClick={handleConfirmOrder} to={`/cart`}>
+          Reorder last order
         </Link>
       </Focusable>
+      </div>
     </>
   );
 };

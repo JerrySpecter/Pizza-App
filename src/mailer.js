@@ -31,7 +31,7 @@ const sendMail = ({ body, res }) => {
         // Send mail to user
         transporter.sendMail({
             from: `"${restaurant}" <${noReplyMail}>`,
-            to: "biscan.karlo@gmail.com",
+            to: "jan.pleho@gmail.com",
             subject: `Your Order from ${restaurant} is coming!`,
             html: `
                 <p>Thank you for ordering!</p>
@@ -54,7 +54,7 @@ const sendMail = ({ body, res }) => {
         // Send mail back to office
         transporter.sendMail({
             from: `"${restaurant}" <${noReplyMail}>`,
-            to: `"${user.name}" <biscan.karlo@gmail.com>`,
+            to: `"${user.name}" <jan.pleho@gmail.com>`,
             // to: `"Pizza shop" <jan.pleho@gmail.com>`,
             subject: `Order by ${user.name}`,
             html: `

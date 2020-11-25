@@ -16,39 +16,41 @@ const Confirmation = (props) => {
 
   return (
     <>
-      <h2>Thanks for your order!</h2>
-      <p>Your order will arive in:</p>
-      <p>42min</p>
-      <p>Your details:</p>
-      <ul>
-        <li>{data.user.name}</li>
-        <li>{data.user.address}</li>
-        <li>{data.user.phone}</li>
-      </ul>
-      <p>Restaurant details:</p>
-      <ul>
-        <li>{restaurant.name}</li>
-        <li>{restaurant.phone}</li>
-      </ul>
-      <p>Your order:</p>
-      <ul>
-        {orderItems[0].cart.map((item, index) => {
-          return (
-            <li key={index}>
-              <p>
-                {item.name} - {item.price}
-              </p>
-              {item.toppings && (
-                <ul>
-                  {item.toppings.map((topping, index) => {
-                    return <li key={index}>{topping.name}</li>;
-                  })}
-                </ul>
-              )}
-            </li>
-          );
-        })}
-      </ul>
+    <div className="container">
+        <h2>Thanks for your order!</h2>
+        <p>Your order will arive in:</p>
+        <p>42min</p>
+        <p>Your delivery details:</p>
+        <ul>
+          <li>{data.user.name}</li>
+          <li>{data.user.address}</li>
+          <li>{data.user.phone}</li>
+        </ul>
+        <p>Restaurant details:</p>
+        <ul>
+          <li>{restaurant.name}</li>
+          <li>{restaurant.phone}</li>
+        </ul>
+        <p>Your order:</p>
+        <ul>
+          {orderItems[0].cart.map((item, index) => {
+            return (
+              <li key={index}>
+                <p>
+                  {item.name} - {item.price}
+                </p>
+                {item.toppings && (
+                  <ul>
+                    {item.toppings.map((topping, index) => {
+                      return <li key={index}>{topping.name}</li>;
+                    })}
+                  </ul>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </div>
     </>
   );
 };
