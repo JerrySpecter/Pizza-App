@@ -27,7 +27,7 @@ export const List = (props) => {
           <Restaurant />
         </Route>
         <Route path={match.path}>
-          <h2>Restaurants nearby you:</h2>
+          <h1>Restaurants nearby you:</h1>
           <ul className="restaurants">
             {items &&
               items.map((item, index) => {

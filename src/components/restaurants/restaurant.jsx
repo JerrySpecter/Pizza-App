@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { data } from "./../../config";
 import Item from "./item";
 
@@ -16,7 +16,6 @@ export const Restaurant = (props) => {
       <h1 className="title">
         {item.name} - {item.rating}
       </h1>
-      <Link to="/">back to restaurant list</Link>
       <ul className="menu">
         {item.menuItems &&
           item.menuItems.map((menuItem, index) => {

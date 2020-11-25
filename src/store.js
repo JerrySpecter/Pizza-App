@@ -1,6 +1,6 @@
 import { createStore } from "redux";
-import cart from "./components/cart/cart";
-import { saveState, loadState, sum } from './helpers'
+//import cart from "./components/cart/cart";
+import { saveState, loadState, /*sum*/ } from './helpers'
 
 export const ADD_TO_CART = "ADD_TO_CART";
 export const REMOVE_FROM_CART = "REMOVE_FROM_CART";

@@ -8,8 +8,11 @@
 
   &-item {
     width: 400px;
-    margin: 18px;
+    padding: 16px;
     text-align: center;
+    background-color: #edf2f5;
+    margin-bottom: 32px;
+    color: #4c3017;
   }
 
   &-link {
@@ -18,12 +21,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 18px;
-    box-shadow: 0 2px 8px 2px #d7d7d7;
+    padding: 16px;
+    font-size: 32px;
+    font-weight: bold;
+
+    
   }
 
   &-logo{
-    max-width: 400px;
+    max-width: 100%;
     padding: 20px;
   }
   

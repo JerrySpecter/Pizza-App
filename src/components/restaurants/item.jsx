@@ -31,17 +31,30 @@ const Item = (props) => {
     <>
       <li className="menu-item">
         <div className="header">
-          <h3 className="title">
-            {item.name} - {item.price}
-          </h3>
-          <div>
+          <div className="content-area">
+            <img src={`img/pizzas/${item.image}`} className="" alt="Pizza"/>
+            <div className="textual">
+              <h3 className="title">
+                {item.name} - {item.price}
+              </h3>
+              <p className="description">{item.description}</p>
+            </div>
+          </div>
+          <div className="action-area">
+          <span>
+            {quantity > 0 && (
+
+              (quantity+'x')
+
+              )}
+              </span>
             {quantity > 0 && (
               <Focusable onClickEnter={() => handleRemoveFromCart(item.id)}>
                 <button
-                  className="add-to-cart"
+                  className="substract"
                   onClick={() => handleRemoveFromCart(item.id)}
                 >
-                  Remove
+                  Substract
                 </button>
               </Focusable>
             )}
@@ -52,20 +65,6 @@ const Item = (props) => {
             </Focusable>
           </div>
         </div>
-        <div className="counter">
-          <button className="counter-button">-</button>
-          <div className="counter-input-wrapper">
-            <input
-              id={`counter-input-${item.id}`}
-              className="counter-input"
-              type="text"
-              disabled
-              value={quantity}
-            />
-          </div>
-          <button className="counter-button">+</button>
-        </div>
-        <p className="description">{item.description}</p>
       </li>
     </>
   );

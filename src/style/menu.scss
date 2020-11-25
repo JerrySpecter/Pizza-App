@@ -2,17 +2,36 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
   &-item {
     box-shadow: 0 2px 8px 1px #d7d7d7;
-    padding: 18px;
-    margin-bottom: 18px;
+    padding: 16px;
+    margin-bottom: 16px;
+    width: 920px;
 
     .header {
       display: flex;
       justify-content: space-between;
       align-items: center;
+
+      img{
+        height: 200px;
+        margin-right: 16px;
+      }
     }
+    .content-area{
+      display: flex;
+      align-items: center;
+      max-width: 680px;
+    }
+
+    .action-area{
+      display: flex;
+    }
+
   }
 }
 
@@ -44,4 +63,23 @@
     margin-right: 2px;
     width: 25px;
   }
+}
+
+button {
+  margin: 0 4px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.focusable {
+
+  &:focus{
+    outline: none;
+
+    .restaurants-item{
+      background-color: #fdb001;
+      color: #edf2f5;
+    }
+  }
+
 }
