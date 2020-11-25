@@ -14,65 +14,46 @@ export const data = {
             "menuItems": [
                 {
                     "id": 1,
-                    "name": "Marinara",
+                    "name": "Pepperoni",
+                    "image": "Pepperoni.webp",
                     "price": 7.00,
-                    "description": "Tomatensauce, Oregano, Knoblauch -Öl, Basilikum",
+                    "description": "The all-time favourite - It doesn't get any more iconic than this. Savoury pepperoni, homestyle sauce, and ooey-gooey, stretchy mozzarella. Perfection!",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 2,
-                    "name": "Margherita",
+                    "name": "Spicy BBQ Chicken",
                     "price": 8.50,
-                    "description": "Tomatensauce, Mozzarella, Basilikum, Olivenöl",
+                    "image": "BBQChicken.webp",
+                    "description": "Saddle up for a slice - It's a showdown at Flavour Corral, with grilled chicken, hot banana peppers, red onions, Texas BBQ sauce and mozzarella cheese. Wanna amp it up even more? Add Frank's Red Hot!",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 3,
-                    "name": "Diavola",
+                    "name": "Hot & Spicy Sausage",
+                    "image": "HotSpicySausage.webp",
                     "price": 11.50,
-                    "description": "Tomatensauce, Mozzarella, scharfe Salami, Kirschtomaten, Basilikum, Olivenöl",
+                    "description": "Is it getting warm in here? - Some people just love to brave the heat. Well, step-up you spice-monsters. This slice of fire combines spicy Italian sausage, hot banana peppers, and mozzarella cheese.",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 4,
-                    "name": "Cardinale",
-                    "price": 10.00,
-                    "description": "Tomatensauce, Mozzarella, Schinken, Basilikum, Olivenöl",
+                    "name": "Meat Supreme",
+                    "image": "meat-supreme.webp",
+                    "price": 14.00,
+                    "description": "Topped with classic pepperoni, bacon crumble, salami, spicy Italian sausage, mozzarella cheese, and Italiano blend seasoning. For the meat-lover in you.",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 5,
-                    "name": "Bufalina",
+                    "name": "Mediterranean Vegetarian",
+                    "image": "MediterraneanVegetarian.webp",
                     "price": 12.50,
-                    "description": "Tomatensauce, Büffelmozzarella, Kirschtomaten, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 6,
-                    "name": "Ortolana",
-                    "price": 12.50,
-                    "description": "Tomatensauce, Mozzarella, Champignons, Artischocken, Kirschtomaten, schwarze Oliven, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 7,
-                    "name": "Mastroianni",
-                    "price": 11.50,
-                    "description": "Tomatensauce, geräucherte Käse, Pfeffer, frisch Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 8,
-                    "name": "Capricciosa",
-                    "price": 12.50,
-                    "description": "Tomatensauce, Mozzarella, Schinken, Champignons, Artischocken, Oliven, Basilikum, Olive",
+                    "description": "Topped with kalamata olives, broccoli, sun-dried tomatoes, grilled zucchini, red onions, feta cheese and mozzarella cheese. A healthy alternative.",
                     "quantity": 0,
                     "toppings": []
                 }
@@ -87,65 +68,46 @@ export const data = {
             "menuItems": [
                 {
                     "id": 1,
-                    "name": "Marinara",
+                    "name": "Pepperoni",
+                    "image": "Pepperoni.webp",
                     "price": 7.00,
-                    "description": "Tomatensauce, Oregano, Knoblauch -Öl, Basilikum",
+                    "description": "The all-time favourite - It doesn't get any more iconic than this. Savoury pepperoni, homestyle sauce, and ooey-gooey, stretchy mozzarella. Perfection!",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 2,
-                    "name": "Margherita",
+                    "name": "Spicy BBQ Chicken",
                     "price": 8.50,
-                    "description": "Tomatensauce, Mozzarella, Basilikum, Olivenöl",
+                    "image": "BBQChicken.webp",
+                    "description": "Saddle up for a slice - It's a showdown at Flavour Corral, with grilled chicken, hot banana peppers, red onions, Texas BBQ sauce and mozzarella cheese. Wanna amp it up even more? Add Frank's Red Hot!",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 3,
-                    "name": "Diavola",
+                    "name": "Hot & Spicy Sausage",
+                    "image": "HotSpicySausage.webp",
                     "price": 11.50,
-                    "description": "Tomatensauce, Mozzarella, scharfe Salami, Kirschtomaten, Basilikum, Olivenöl",
+                    "description": "Is it getting warm in here? - Some people just love to brave the heat. Well, step-up you spice-monsters. This slice of fire combines spicy Italian sausage, hot banana peppers, and mozzarella cheese.",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 4,
-                    "name": "Cardinale",
-                    "price": 10.00,
-                    "description": "Tomatensauce, Mozzarella, Schinken, Basilikum, Olivenöl",
+                    "name": "Meat Supreme",
+                    "image": "meat-supreme.webp",
+                    "price": 14.00,
+                    "description": "Topped with classic pepperoni, bacon crumble, salami, spicy Italian sausage, mozzarella cheese, and Italiano blend seasoning. For the meat-lover in you.",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 5,
-                    "name": "Bufalina",
+                    "name": "Mediterranean Vegetarian",
+                    "image": "MediterraneanVegetarian.webp",
                     "price": 12.50,
-                    "description": "Tomatensauce, Büffelmozzarella, Kirschtomaten, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 6,
-                    "name": "Ortolana",
-                    "price": 12.50,
-                    "description": "Tomatensauce, Mozzarella, Champignons, Artischocken, Kirschtomaten, schwarze Oliven, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 7,
-                    "name": "Mastroianni",
-                    "price": 11.50,
-                    "description": "Tomatensauce, geräucherte Käse, Pfeffer, frisch Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 8,
-                    "name": "Capricciosa",
-                    "price": 12.50,
-                    "description": "Tomatensauce, Mozzarella, Schinken, Champignons, Artischocken, Oliven, Basilikum, Olive",
+                    "description": "Topped with kalamata olives, broccoli, sun-dried tomatoes, grilled zucchini, red onions, feta cheese and mozzarella cheese. A healthy alternative.",
                     "quantity": 0,
                     "toppings": []
                 }
@@ -160,138 +122,46 @@ export const data = {
             "menuItems": [
                 {
                     "id": 1,
-                    "name": "Marinara",
+                    "name": "Pepperoni",
+                    "image": "Pepperoni.webp",
                     "price": 7.00,
-                    "description": "Tomatensauce, Oregano, Knoblauch -Öl, Basilikum",
+                    "description": "The all-time favourite - It doesn't get any more iconic than this. Savoury pepperoni, homestyle sauce, and ooey-gooey, stretchy mozzarella. Perfection!",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 2,
-                    "name": "Margherita",
+                    "name": "Spicy BBQ Chicken",
                     "price": 8.50,
-                    "description": "Tomatensauce, Mozzarella, Basilikum, Olivenöl",
+                    "image": "BBQChicken.webp",
+                    "description": "Saddle up for a slice - It's a showdown at Flavour Corral, with grilled chicken, hot banana peppers, red onions, Texas BBQ sauce and mozzarella cheese. Wanna amp it up even more? Add Frank's Red Hot!",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 3,
-                    "name": "Diavola",
+                    "name": "Hot & Spicy Sausage",
+                    "image": "HotSpicySausage.webp",
                     "price": 11.50,
-                    "description": "Tomatensauce, Mozzarella, scharfe Salami, Kirschtomaten, Basilikum, Olivenöl",
+                    "description": "Is it getting warm in here? - Some people just love to brave the heat. Well, step-up you spice-monsters. This slice of fire combines spicy Italian sausage, hot banana peppers, and mozzarella cheese.",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 4,
-                    "name": "Cardinale",
-                    "price": 10.00,
-                    "description": "Tomatensauce, Mozzarella, Schinken, Basilikum, Olivenöl",
+                    "name": "Meat Supreme",
+                    "image": "meat-supreme.webp",
+                    "price": 14.00,
+                    "description": "Topped with classic pepperoni, bacon crumble, salami, spicy Italian sausage, mozzarella cheese, and Italiano blend seasoning. For the meat-lover in you.",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 5,
-                    "name": "Bufalina",
+                    "name": "Mediterranean Vegetarian",
+                    "image": "MediterraneanVegetarian.webp",
                     "price": 12.50,
-                    "description": "Tomatensauce, Büffelmozzarella, Kirschtomaten, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 6,
-                    "name": "Ortolana",
-                    "price": 12.50,
-                    "description": "Tomatensauce, Mozzarella, Champignons, Artischocken, Kirschtomaten, schwarze Oliven, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 7,
-                    "name": "Mastroianni",
-                    "price": 11.50,
-                    "description": "Tomatensauce, geräucherte Käse, Pfeffer, frisch Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 8,
-                    "name": "Capricciosa",
-                    "price": 12.50,
-                    "description": "Tomatensauce, Mozzarella, Schinken, Champignons, Artischocken, Oliven, Basilikum, Olive",
-                    "quantity": 0,
-                    "toppings": []
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "name": "DELUXE Pizza Kebab Burger",
-            "rating": 4,
-            "logo": "logo4_465x320.png",
-            "phone": "+43506640",
-            "menuItems": [
-                {
-                    "id": 1,
-                    "name": "Marinara",
-                    "price": 7.00,
-                    "description": "Tomatensauce, Oregano, Knoblauch -Öl, Basilikum",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 2,
-                    "name": "Margherita",
-                    "price": 8.50,
-                    "description": "Tomatensauce, Mozzarella, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 3,
-                    "name": "Diavola",
-                    "price": 11.50,
-                    "description": "Tomatensauce, Mozzarella, scharfe Salami, Kirschtomaten, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 4,
-                    "name": "Cardinale",
-                    "price": 10.00,
-                    "description": "Tomatensauce, Mozzarella, Schinken, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 5,
-                    "name": "Bufalina",
-                    "price": 12.50,
-                    "description": "Tomatensauce, Büffelmozzarella, Kirschtomaten, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 6,
-                    "name": "Ortolana",
-                    "price": 12.50,
-                    "description": "Tomatensauce, Mozzarella, Champignons, Artischocken, Kirschtomaten, schwarze Oliven, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 7,
-                    "name": "Mastroianni",
-                    "price": 11.50,
-                    "description": "Tomatensauce, geräucherte Käse, Pfeffer, frisch Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 8,
-                    "name": "Capricciosa",
-                    "price": 12.50,
-                    "description": "Tomatensauce, Mozzarella, Schinken, Champignons, Artischocken, Oliven, Basilikum, Olive",
+                    "description": "Topped with kalamata olives, broccoli, sun-dried tomatoes, grilled zucchini, red onions, feta cheese and mozzarella cheese. A healthy alternative.",
                     "quantity": 0,
                     "toppings": []
                 }
@@ -306,65 +176,46 @@ export const data = {
             "menuItems": [
                 {
                     "id": 1,
-                    "name": "Marinara",
+                    "name": "Pepperoni",
+                    "image": "Pepperoni.webp",
                     "price": 7.00,
-                    "description": "Tomatensauce, Oregano, Knoblauch -Öl, Basilikum",
+                    "description": "The all-time favourite - It doesn't get any more iconic than this. Savoury pepperoni, homestyle sauce, and ooey-gooey, stretchy mozzarella. Perfection!",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 2,
-                    "name": "Margherita",
+                    "name": "Spicy BBQ Chicken",
                     "price": 8.50,
-                    "description": "Tomatensauce, Mozzarella, Basilikum, Olivenöl",
+                    "image": "BBQChicken.webp",
+                    "description": "Saddle up for a slice - It's a showdown at Flavour Corral, with grilled chicken, hot banana peppers, red onions, Texas BBQ sauce and mozzarella cheese. Wanna amp it up even more? Add Frank's Red Hot!",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 3,
-                    "name": "Diavola",
+                    "name": "Hot & Spicy Sausage",
+                    "image": "HotSpicySausage.webp",
                     "price": 11.50,
-                    "description": "Tomatensauce, Mozzarella, scharfe Salami, Kirschtomaten, Basilikum, Olivenöl",
+                    "description": "Is it getting warm in here? - Some people just love to brave the heat. Well, step-up you spice-monsters. This slice of fire combines spicy Italian sausage, hot banana peppers, and mozzarella cheese.",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 4,
-                    "name": "Cardinale",
-                    "price": 10.00,
-                    "description": "Tomatensauce, Mozzarella, Schinken, Basilikum, Olivenöl",
+                    "name": "Meat Supreme",
+                    "image": "meat-supreme.webp",
+                    "price": 14.00,
+                    "description": "Topped with classic pepperoni, bacon crumble, salami, spicy Italian sausage, mozzarella cheese, and Italiano blend seasoning. For the meat-lover in you.",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 5,
-                    "name": "Bufalina",
+                    "name": "Mediterranean Vegetarian",
+                    "image": "MediterraneanVegetarian.webp",
                     "price": 12.50,
-                    "description": "Tomatensauce, Büffelmozzarella, Kirschtomaten, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 6,
-                    "name": "Ortolana",
-                    "price": 12.50,
-                    "description": "Tomatensauce, Mozzarella, Champignons, Artischocken, Kirschtomaten, schwarze Oliven, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 7,
-                    "name": "Mastroianni",
-                    "price": 11.50,
-                    "description": "Tomatensauce, geräucherte Käse, Pfeffer, frisch Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 8,
-                    "name": "Capricciosa",
-                    "price": 12.50,
-                    "description": "Tomatensauce, Mozzarella, Schinken, Champignons, Artischocken, Oliven, Basilikum, Olive",
+                    "description": "Topped with kalamata olives, broccoli, sun-dried tomatoes, grilled zucchini, red onions, feta cheese and mozzarella cheese. A healthy alternative.",
                     "quantity": 0,
                     "toppings": []
                 }
@@ -379,65 +230,46 @@ export const data = {
             "menuItems": [
                 {
                     "id": 1,
-                    "name": "Marinara",
+                    "name": "Pepperoni",
+                    "image": "Pepperoni.webp",
                     "price": 7.00,
-                    "description": "Tomatensauce, Oregano, Knoblauch -Öl, Basilikum",
+                    "description": "The all-time favourite - It doesn't get any more iconic than this. Savoury pepperoni, homestyle sauce, and ooey-gooey, stretchy mozzarella. Perfection!",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 2,
-                    "name": "Margherita",
+                    "name": "Spicy BBQ Chicken",
                     "price": 8.50,
-                    "description": "Tomatensauce, Mozzarella, Basilikum, Olivenöl",
+                    "image": "BBQChicken.webp",
+                    "description": "Saddle up for a slice - It's a showdown at Flavour Corral, with grilled chicken, hot banana peppers, red onions, Texas BBQ sauce and mozzarella cheese. Wanna amp it up even more? Add Frank's Red Hot!",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 3,
-                    "name": "Diavola",
+                    "name": "Hot & Spicy Sausage",
+                    "image": "HotSpicySausage.webp",
                     "price": 11.50,
-                    "description": "Tomatensauce, Mozzarella, scharfe Salami, Kirschtomaten, Basilikum, Olivenöl",
+                    "description": "Is it getting warm in here? - Some people just love to brave the heat. Well, step-up you spice-monsters. This slice of fire combines spicy Italian sausage, hot banana peppers, and mozzarella cheese.",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 4,
-                    "name": "Cardinale",
-                    "price": 10.00,
-                    "description": "Tomatensauce, Mozzarella, Schinken, Basilikum, Olivenöl",
+                    "name": "Meat Supreme",
+                    "image": "meat-supreme.webp",
+                    "price": 14.00,
+                    "description": "Topped with classic pepperoni, bacon crumble, salami, spicy Italian sausage, mozzarella cheese, and Italiano blend seasoning. For the meat-lover in you.",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 5,
-                    "name": "Bufalina",
+                    "name": "Mediterranean Vegetarian",
+                    "image": "MediterraneanVegetarian.webp",
                     "price": 12.50,
-                    "description": "Tomatensauce, Büffelmozzarella, Kirschtomaten, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 6,
-                    "name": "Ortolana",
-                    "price": 12.50,
-                    "description": "Tomatensauce, Mozzarella, Champignons, Artischocken, Kirschtomaten, schwarze Oliven, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 7,
-                    "name": "Mastroianni",
-                    "price": 11.50,
-                    "description": "Tomatensauce, geräucherte Käse, Pfeffer, frisch Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 8,
-                    "name": "Capricciosa",
-                    "price": 12.50,
-                    "description": "Tomatensauce, Mozzarella, Schinken, Champignons, Artischocken, Oliven, Basilikum, Olive",
+                    "description": "Topped with kalamata olives, broccoli, sun-dried tomatoes, grilled zucchini, red onions, feta cheese and mozzarella cheese. A healthy alternative.",
                     "quantity": 0,
                     "toppings": []
                 }
@@ -452,65 +284,46 @@ export const data = {
             "menuItems": [
                 {
                     "id": 1,
-                    "name": "Marinara",
+                    "name": "Pepperoni",
+                    "image": "Pepperoni.webp",
                     "price": 7.00,
-                    "description": "Tomatensauce, Oregano, Knoblauch -Öl, Basilikum",
+                    "description": "The all-time favourite - It doesn't get any more iconic than this. Savoury pepperoni, homestyle sauce, and ooey-gooey, stretchy mozzarella. Perfection!",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 2,
-                    "name": "Margherita",
+                    "name": "Spicy BBQ Chicken",
                     "price": 8.50,
-                    "description": "Tomatensauce, Mozzarella, Basilikum, Olivenöl",
+                    "image": "BBQChicken.webp",
+                    "description": "Saddle up for a slice - It's a showdown at Flavour Corral, with grilled chicken, hot banana peppers, red onions, Texas BBQ sauce and mozzarella cheese. Wanna amp it up even more? Add Frank's Red Hot!",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 3,
-                    "name": "Diavola",
+                    "name": "Hot & Spicy Sausage",
+                    "image": "HotSpicySausage.webp",
                     "price": 11.50,
-                    "description": "Tomatensauce, Mozzarella, scharfe Salami, Kirschtomaten, Basilikum, Olivenöl",
+                    "description": "Is it getting warm in here? - Some people just love to brave the heat. Well, step-up you spice-monsters. This slice of fire combines spicy Italian sausage, hot banana peppers, and mozzarella cheese.",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 4,
-                    "name": "Cardinale",
-                    "price": 10.00,
-                    "description": "Tomatensauce, Mozzarella, Schinken, Basilikum, Olivenöl",
+                    "name": "Meat Supreme",
+                    "image": "meat-supreme.webp",
+                    "price": 14.00,
+                    "description": "Topped with classic pepperoni, bacon crumble, salami, spicy Italian sausage, mozzarella cheese, and Italiano blend seasoning. For the meat-lover in you.",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 5,
-                    "name": "Bufalina",
+                    "name": "Mediterranean Vegetarian",
+                    "image": "MediterraneanVegetarian.webp",
                     "price": 12.50,
-                    "description": "Tomatensauce, Büffelmozzarella, Kirschtomaten, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 6,
-                    "name": "Ortolana",
-                    "price": 12.50,
-                    "description": "Tomatensauce, Mozzarella, Champignons, Artischocken, Kirschtomaten, schwarze Oliven, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 7,
-                    "name": "Mastroianni",
-                    "price": 11.50,
-                    "description": "Tomatensauce, geräucherte Käse, Pfeffer, frisch Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 8,
-                    "name": "Capricciosa",
-                    "price": 12.50,
-                    "description": "Tomatensauce, Mozzarella, Schinken, Champignons, Artischocken, Oliven, Basilikum, Olive",
+                    "description": "Topped with kalamata olives, broccoli, sun-dried tomatoes, grilled zucchini, red onions, feta cheese and mozzarella cheese. A healthy alternative.",
                     "quantity": 0,
                     "toppings": []
                 }
@@ -525,65 +338,46 @@ export const data = {
             "menuItems": [
                 {
                     "id": 1,
-                    "name": "Marinara",
+                    "name": "Pepperoni",
+                    "image": "Pepperoni.webp",
                     "price": 7.00,
-                    "description": "Tomatensauce, Oregano, Knoblauch -Öl, Basilikum",
+                    "description": "The all-time favourite - It doesn't get any more iconic than this. Savoury pepperoni, homestyle sauce, and ooey-gooey, stretchy mozzarella. Perfection!",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 2,
-                    "name": "Margherita",
+                    "name": "Spicy BBQ Chicken",
                     "price": 8.50,
-                    "description": "Tomatensauce, Mozzarella, Basilikum, Olivenöl",
+                    "image": "BBQChicken.webp",
+                    "description": "Saddle up for a slice - It's a showdown at Flavour Corral, with grilled chicken, hot banana peppers, red onions, Texas BBQ sauce and mozzarella cheese. Wanna amp it up even more? Add Frank's Red Hot!",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 3,
-                    "name": "Diavola",
+                    "name": "Hot & Spicy Sausage",
+                    "image": "HotSpicySausage.webp",
                     "price": 11.50,
-                    "description": "Tomatensauce, Mozzarella, scharfe Salami, Kirschtomaten, Basilikum, Olivenöl",
+                    "description": "Is it getting warm in here? - Some people just love to brave the heat. Well, step-up you spice-monsters. This slice of fire combines spicy Italian sausage, hot banana peppers, and mozzarella cheese.",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 4,
-                    "name": "Cardinale",
-                    "price": 10.00,
-                    "description": "Tomatensauce, Mozzarella, Schinken, Basilikum, Olivenöl",
+                    "name": "Meat Supreme",
+                    "image": "meat-supreme.webp",
+                    "price": 14.00,
+                    "description": "Topped with classic pepperoni, bacon crumble, salami, spicy Italian sausage, mozzarella cheese, and Italiano blend seasoning. For the meat-lover in you.",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 5,
-                    "name": "Bufalina",
+                    "name": "Mediterranean Vegetarian",
+                    "image": "MediterraneanVegetarian.webp",
                     "price": 12.50,
-                    "description": "Tomatensauce, Büffelmozzarella, Kirschtomaten, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 6,
-                    "name": "Ortolana",
-                    "price": 12.50,
-                    "description": "Tomatensauce, Mozzarella, Champignons, Artischocken, Kirschtomaten, schwarze Oliven, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 7,
-                    "name": "Mastroianni",
-                    "price": 11.50,
-                    "description": "Tomatensauce, geräucherte Käse, Pfeffer, frisch Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 8,
-                    "name": "Capricciosa",
-                    "price": 12.50,
-                    "description": "Tomatensauce, Mozzarella, Schinken, Champignons, Artischocken, Oliven, Basilikum, Olive",
+                    "description": "Topped with kalamata olives, broccoli, sun-dried tomatoes, grilled zucchini, red onions, feta cheese and mozzarella cheese. A healthy alternative.",
                     "quantity": 0,
                     "toppings": []
                 }
@@ -598,65 +392,46 @@ export const data = {
             "menuItems": [
                 {
                     "id": 1,
-                    "name": "Marinara",
+                    "name": "Pepperoni",
+                    "image": "Pepperoni.webp",
                     "price": 7.00,
-                    "description": "Tomatensauce, Oregano, Knoblauch -Öl, Basilikum",
+                    "description": "The all-time favourite - It doesn't get any more iconic than this. Savoury pepperoni, homestyle sauce, and ooey-gooey, stretchy mozzarella. Perfection!",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 2,
-                    "name": "Margherita",
+                    "name": "Spicy BBQ Chicken",
                     "price": 8.50,
-                    "description": "Tomatensauce, Mozzarella, Basilikum, Olivenöl",
+                    "image": "BBQChicken.webp",
+                    "description": "Saddle up for a slice - It's a showdown at Flavour Corral, with grilled chicken, hot banana peppers, red onions, Texas BBQ sauce and mozzarella cheese. Wanna amp it up even more? Add Frank's Red Hot!",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 3,
-                    "name": "Diavola",
+                    "name": "Hot & Spicy Sausage",
+                    "image": "HotSpicySausage.webp",
                     "price": 11.50,
-                    "description": "Tomatensauce, Mozzarella, scharfe Salami, Kirschtomaten, Basilikum, Olivenöl",
+                    "description": "Is it getting warm in here? - Some people just love to brave the heat. Well, step-up you spice-monsters. This slice of fire combines spicy Italian sausage, hot banana peppers, and mozzarella cheese.",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 4,
-                    "name": "Cardinale",
-                    "price": 10.00,
-                    "description": "Tomatensauce, Mozzarella, Schinken, Basilikum, Olivenöl",
+                    "name": "Meat Supreme",
+                    "image": "meat-supreme.webp",
+                    "price": 14.00,
+                    "description": "Topped with classic pepperoni, bacon crumble, salami, spicy Italian sausage, mozzarella cheese, and Italiano blend seasoning. For the meat-lover in you.",
                     "quantity": 0,
                     "toppings": []
                 },
                 {
                     "id": 5,
-                    "name": "Bufalina",
+                    "name": "Mediterranean Vegetarian",
+                    "image": "MediterraneanVegetarian.webp",
                     "price": 12.50,
-                    "description": "Tomatensauce, Büffelmozzarella, Kirschtomaten, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 6,
-                    "name": "Ortolana",
-                    "price": 12.50,
-                    "description": "Tomatensauce, Mozzarella, Champignons, Artischocken, Kirschtomaten, schwarze Oliven, Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 7,
-                    "name": "Mastroianni",
-                    "price": 11.50,
-                    "description": "Tomatensauce, geräucherte Käse, Pfeffer, frisch Basilikum, Olivenöl",
-                    "quantity": 0,
-                    "toppings": []
-                },
-                {
-                    "id": 8,
-                    "name": "Capricciosa",
-                    "price": 12.50,
-                    "description": "Tomatensauce, Mozzarella, Schinken, Champignons, Artischocken, Oliven, Basilikum, Olive",
+                    "description": "Topped with kalamata olives, broccoli, sun-dried tomatoes, grilled zucchini, red onions, feta cheese and mozzarella cheese. A healthy alternative.",
                     "quantity": 0,
                     "toppings": []
                 }

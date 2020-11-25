@@ -24,7 +24,7 @@ export const Menu = (props) => {
           `}
           to={`${match.url}`}
         >
-          Home
+          Restaurants
         </Link>
       </Focusable>
       <Focusable onClickEnter={() => handleClickEnter(`/reorder`)}>
