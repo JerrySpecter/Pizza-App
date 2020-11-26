@@ -18,8 +18,7 @@ const Confirmation = (props) => {
     <>
     <div className="container">
         <h2>Thanks for your order!</h2>
-        <p>Your order will arive in:</p>
-        <p>42min</p>
+        <p>Your order will arive in - approximately <strong>42</strong> minutes.</p>
         <p>Your delivery details:</p>
         <ul>
           <li>{data.user.name}</li>

@@ -48,7 +48,7 @@ const Checkout = (props) => {
   return (
     <>
       <div className="container">
-        <h1>Cart - {restaurant.name}</h1>
+        <h1>Cart</h1>
       </div>
       <ul className="menu menu--cart">
         {cartItems.length > 0 &&

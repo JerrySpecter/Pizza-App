@@ -31,6 +31,19 @@ export const Menu = (props) => {
         </Focusable>
       </div>
       <div className="navigation-right">
+      {order.length > 0 && (
+          <Focusable onClickEnter={() => handleClickEnter(`/your-order`)}>
+            <Link
+              className={`${
+                window.location.hash === "#/your-order" ? "active" : ""
+              } navigation-link`}
+              to={`/your-order`}
+            >
+              Order status(~42min)
+            </Link>
+          </Focusable>
+        
+      )}
         <Focusable onClickEnter={() => handleClickEnter(`/reorder`)}>
           <Link
             className={`${
@@ -54,19 +67,6 @@ export const Menu = (props) => {
             Cart {cartItems && cartItems.length > 0 && `(${cartItems.length})`}
           </Link>
         </Focusable>
-        {order.length > 0 && (
-          <Focusable onClickEnter={() => handleClickEnter(`/your-order`)}>
-            <Link
-              className={`${
-                window.location.hash === "#/your-order" ? "active" : ""
-              } navigation-link`}
-              to={`/your-order`}
-            >
-              Your order
-            </Link>
-          </Focusable>
-        
-      )}
       </div>
     </div>
     </FocusableSection>
