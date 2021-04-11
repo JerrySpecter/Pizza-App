@@ -1,10 +1,10 @@
 import React from "react";
-import { connect } from "react-redux";
-import { useSelector } from "react-redux";
+import { connect, useSelector } from "react-redux";
 import { data } from "./../../config";
 
 const Confirmation = (props) => {
   const orderItems = useSelector((state) => state.order);
+  const user = useSelector((state) => state.user);
 
   if (!orderItems.length) {
     return <h2>No order yet..</h2>;
@@ -21,9 +21,9 @@ const Confirmation = (props) => {
         <p>Your order will arive in - approximately <strong>42</strong> minutes.</p>
         <p>Your delivery details:</p>
         <ul>
-          <li>{data.user.name}</li>
-          <li>{data.user.address}</li>
-          <li>{data.user.phone}</li>
+          <li>{user.data.firstName}</li>
+          <li>{user.data.name}</li>
+          {/* <li>{user.data.phone}</li> */}
         </ul>
         <p>Restaurant details:</p>
         <ul>

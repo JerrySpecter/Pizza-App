@@ -9,6 +9,7 @@ import { data } from "./../../config";
 
 const Checkout = (props) => {
   const cartItems = useSelector((state) => state.cart);
+  const user = useSelector((state) => state.user);
   const history = useHistory();
   const { confirmOrder } = props;
   const restaurant = useSelector((state) => state.restaurant);
@@ -19,14 +20,14 @@ const Checkout = (props) => {
   
 
   const handleConfirmOrder = () => {
-    fetch("http://10.0.0.15:3001/order-email", {
+    fetch("http://localhost:3001/order-email", {
       method: "POST", // or 'PUT'
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
         data: cartItems,
-        user: data.user,
+        user: user.data,
         restaurant: data.restaurants.find((r) => r.id === restaurant).name,
       }),
     }).then((response) => {
